@@ -24,18 +24,18 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 <pre>
-TS-AWESOME     - AWESOME, MOST POPULAR LISTS
-				 DEMO: https://www.thomasschilb.com/awesome/
+TS-AWESOME      - AWESOME, MOST POPULAR LISTS
+				DEMO: https://www.thomasschilb.com/awesome/
 
-TS-COUNTER     - COUNTER, WITH MYSQL OR NODB
-                 DEMO: -
+TS-COUNTER      - COUNTER, WITH MYSQL OR NODB
+                DEMO: -
 
-TS-FIGLET      - FIGLET, FONTS VIEWER, WITHOUT ANY ZEND FRAMEWORK!
-                 DEMO: https://www.thomasschilb.com/figlet/?q=Github
+TS-FIGLET       - FIGLET, FONTS VIEWER, WITHOUT ANY ZEND FRAMEWORK!
+                DEMO: https://www.thomasschilb.com/figlet/?q=Github
 
-TS-INDEXER     - GOOGLE, SIMPLE INDEX SEARCH
-				 DEMO: https://www.thomasschilb.com/indexer/
+TS-INDEXER      - GOOGLE, SIMPLE INDEX SEARCH
+                DEMO: -
 
-TS-TRACKERLIST - TRACKERLISTS, ALL THE PUBLIC
-                 DEMO: https://thomasschilb.com/trackerlist/
+TS-TRACKERLIST  - TRACKERLISTS, ALL THE PUBLIC
+                DEMO: https://thomasschilb.com/trackerlist/
 </pre>
