@@ -25,17 +25,17 @@ SOFTWARE.
 
 <pre>
 TS-AWESOME     - AWESOME, MOST POPULAR LISTS
-				 DEMO: https://www.thomasschilb.com/awesome/
+				  DEMO: https://www.thomasschilb.com/awesome/
 				 
 TS-COUNTER     - COUNTER, WITH MYSQL OR NODB
-                 DEMO: -
+                  DEMO: -
 
 TS-FIGLET      - FIGLET, FONTS VIEWER [WITHOUT ANY ZEND FRAMEWORK]
-                 DEMO: https://www.thomasschilb.com/figlet/?q=Github
+                  DEMO: https://www.thomasschilb.com/figlet/?q=Github
 				 
 TS-INDEXER     - GOOGLE, SIMPLE INDEX SEARCH
-				 DEMO: https://www.thomasschilb.com/indexer/
+				  DEMO: https://www.thomasschilb.com/indexer/
 				 
 TS-TRACKERLIST - TRACKERLISTS, ALL THE PUBLIC
-                 DEMO: https://thomasschilb.com/trackerlist/
+                  DEMO: https://thomasschilb.com/trackerlist/
 </pre>
