@@ -31,11 +31,11 @@ TS-COUNTER      - COUNTER, WITH MYSQL OR NODB
                 DEMO: -
 
 TS-FIGLET       - FIGLET, FONTS VIEWER, WITHOUT ANY ZEND FRAMEWORK!
-                DEMO: https://www.thomasschilb.com/figlet/?q=Github
+                DEMO: <a href="https://www.thomasschilb.com/figlet/?q=Github">thomasschilb.com/figlet</a>
 
 TS-INDEXER      - GOOGLE, SIMPLE INDEX SEARCH
                 DEMO: -
 
 TS-TRACKERLIST  - TRACKERLISTS, ALL THE PUBLIC
-                DEMO: https://thomasschilb.com/trackerlist/
+                DEMO: <a href="https://thomasschilb.com/trackerlist/">thomasschilb.com/trackerlist</a>
 </pre>
