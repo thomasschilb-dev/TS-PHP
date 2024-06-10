@@ -25,7 +25,7 @@ SOFTWARE.
 
 <pre>
 TS-AWESOME      - AWESOME, MOST POPULAR LISTS
-				DEMO: https://www.thomasschilb.com/awesome/
+                DEMO: https://www.thomasschilb.com/awesome/
 
 TS-COUNTER      - COUNTER, WITH MYSQL OR NODB
                 DEMO: -
