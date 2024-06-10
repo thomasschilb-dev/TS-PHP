@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>README.md - awesome-command-line-apps - Use your terminal shell to do awesome things.
+</title>
+<meta name='generator' content='cgit v1.2.3'/>
+<meta name='robots' content='index, nofollow'/>
+<link rel='stylesheet' type='text/css' href='/cgit.css'/>
+<link rel='shortcut icon' href='/favicon.ico'/>
+<link rel='alternate' title='Atom feed' href='https://git.herrbischoff.com/awesome-command-line-apps/atom/README.md?h=master' type='application/atom+xml'/>
+<link rel='vcs-git' href='https://git.herrbischoff.com/awesome-command-line-apps' title='awesome-command-line-apps Git repository'/>
+</head>
+<body>
+<div id='cgit'><table id='header'>
+<tr>
+<td class='logo' rowspan='2'><a href='/'><img src='/logo.png' alt='cgit logo'/></a></td>
+<td class='main'><a href='/'>index</a> : <a title='awesome-command-line-apps' href='/awesome-command-line-apps/'>awesome-command-line-apps</a></td><td class='form'><form method='get'>
+<select name='h' onchange='this.form.submit();'>
+<option value='master' selected='selected'>master</option>
+</select> <input type='submit' value='switch'/></form></td></tr>
+<tr><td class='sub'>Use your terminal shell to do awesome things.
+</td><td class='sub right'>User &amp;</td></tr></table>
+<table class='tabs'><tr><td>
+<a href='/awesome-command-line-apps/about/'>about</a><a href='/awesome-command-line-apps/'>summary</a><a href='/awesome-command-line-apps/refs/'>refs</a><a href='/awesome-command-line-apps/log/README.md'>log</a><a class='active' href='/awesome-command-line-apps/tree/README.md'>tree</a><a href='/awesome-command-line-apps/commit/README.md'>commit</a><a href='/awesome-command-line-apps/diff/README.md'>diff</a><a href='/awesome-command-line-apps/stats/README.md'>stats</a></td><td class='form'><form class='right' method='get' action='/awesome-command-line-apps/log/README.md'>
+<select name='qt'>
+<option value='grep'>log msg</option>
+<option value='author'>author</option>
+<option value='committer'>committer</option>
+<option value='range'>range</option>
+</select>
+<input class='txt' type='search' size='10' name='q' value=''/>
+<input type='submit' value='search'/>
+</form>
+</td></tr></table>
+<div class='path'>path: <a href='/awesome-command-line-apps/tree/'>root</a>/<a href='/awesome-command-line-apps/tree/README.md'>README.md</a></div><div class='content'>blob: 21377961fdd939a7dc5e749d9aa2553985bf9fe9 (<a href='/awesome-command-line-apps/plain/README.md'>plain</a>) (<a href='/awesome-command-line-apps/blame/README.md'>blame</a>)
+<table summary='blob content' class='blob'>
+<tr><td class='linenumbers'><pre><a id='n1' href='#n1'>1</a>
+<a id='n2' href='#n2'>2</a>
+<a id='n3' href='#n3'>3</a>
+<a id='n4' href='#n4'>4</a>
+<a id='n5' href='#n5'>5</a>
+<a id='n6' href='#n6'>6</a>
+<a id='n7' href='#n7'>7</a>
+<a id='n8' href='#n8'>8</a>
+<a id='n9' href='#n9'>9</a>
+<a id='n10' href='#n10'>10</a>
+<a id='n11' href='#n11'>11</a>
+<a id='n12' href='#n12'>12</a>
+<a id='n13' href='#n13'>13</a>
+<a id='n14' href='#n14'>14</a>
+<a id='n15' href='#n15'>15</a>
+<a id='n16' href='#n16'>16</a>
+<a id='n17' href='#n17'>17</a>
+<a id='n18' href='#n18'>18</a>
+<a id='n19' href='#n19'>19</a>
+<a id='n20' href='#n20'>20</a>
+<a id='n21' href='#n21'>21</a>
+<a id='n22' href='#n22'>22</a>
+<a id='n23' href='#n23'>23</a>
+<a id='n24' href='#n24'>24</a>
+<a id='n25' href='#n25'>25</a>
+<a id='n26' href='#n26'>26</a>
+<a id='n27' href='#n27'>27</a>
+<a id='n28' href='#n28'>28</a>
+<a id='n29' href='#n29'>29</a>
+<a id='n30' href='#n30'>30</a>
+<a id='n31' href='#n31'>31</a>
+<a id='n32' href='#n32'>32</a>
+<a id='n33' href='#n33'>33</a>
+<a id='n34' href='#n34'>34</a>
+<a id='n35' href='#n35'>35</a>
+<a id='n36' href='#n36'>36</a>
+<a id='n37' href='#n37'>37</a>
+<a id='n38' href='#n38'>38</a>
+<a id='n39' href='#n39'>39</a>
+<a id='n40' href='#n40'>40</a>
+<a id='n41' href='#n41'>41</a>
+<a id='n42' href='#n42'>42</a>
+<a id='n43' href='#n43'>43</a>
+<a id='n44' href='#n44'>44</a>
+<a id='n45' href='#n45'>45</a>
+<a id='n46' href='#n46'>46</a>
+<a id='n47' href='#n47'>47</a>
+<a id='n48' href='#n48'>48</a>
+<a id='n49' href='#n49'>49</a>
+<a id='n50' href='#n50'>50</a>
+<a id='n51' href='#n51'>51</a>
+<a id='n52' href='#n52'>52</a>
+<a id='n53' href='#n53'>53</a>
+<a id='n54' href='#n54'>54</a>
+<a id='n55' href='#n55'>55</a>
+<a id='n56' href='#n56'>56</a>
+<a id='n57' href='#n57'>57</a>
+<a id='n58' href='#n58'>58</a>
+<a id='n59' href='#n59'>59</a>
+<a id='n60' href='#n60'>60</a>
+<a id='n61' href='#n61'>61</a>
+<a id='n62' href='#n62'>62</a>
+<a id='n63' href='#n63'>63</a>
+<a id='n64' href='#n64'>64</a>
+<a id='n65' href='#n65'>65</a>
+<a id='n66' href='#n66'>66</a>
+<a id='n67' href='#n67'>67</a>
+<a id='n68' href='#n68'>68</a>
+<a id='n69' href='#n69'>69</a>
+<a id='n70' href='#n70'>70</a>
+<a id='n71' href='#n71'>71</a>
+<a id='n72' href='#n72'>72</a>
+<a id='n73' href='#n73'>73</a>
+<a id='n74' href='#n74'>74</a>
+<a id='n75' href='#n75'>75</a>
+<a id='n76' href='#n76'>76</a>
+<a id='n77' href='#n77'>77</a>
+<a id='n78' href='#n78'>78</a>
+<a id='n79' href='#n79'>79</a>
+<a id='n80' href='#n80'>80</a>
+<a id='n81' href='#n81'>81</a>
+<a id='n82' href='#n82'>82</a>
+<a id='n83' href='#n83'>83</a>
+<a id='n84' href='#n84'>84</a>
+<a id='n85' href='#n85'>85</a>
+<a id='n86' href='#n86'>86</a>
+<a id='n87' href='#n87'>87</a>
+<a id='n88' href='#n88'>88</a>
+<a id='n89' href='#n89'>89</a>
+<a id='n90' href='#n90'>90</a>
+<a id='n91' href='#n91'>91</a>
+<a id='n92' href='#n92'>92</a>
+<a id='n93' href='#n93'>93</a>
+<a id='n94' href='#n94'>94</a>
+<a id='n95' href='#n95'>95</a>
+<a id='n96' href='#n96'>96</a>
+<a id='n97' href='#n97'>97</a>
+<a id='n98' href='#n98'>98</a>
+<a id='n99' href='#n99'>99</a>
+<a id='n100' href='#n100'>100</a>
+<a id='n101' href='#n101'>101</a>
+<a id='n102' href='#n102'>102</a>
+<a id='n103' href='#n103'>103</a>
+<a id='n104' href='#n104'>104</a>
+<a id='n105' href='#n105'>105</a>
+<a id='n106' href='#n106'>106</a>
+<a id='n107' href='#n107'>107</a>
+<a id='n108' href='#n108'>108</a>
+<a id='n109' href='#n109'>109</a>
+<a id='n110' href='#n110'>110</a>
+<a id='n111' href='#n111'>111</a>
+<a id='n112' href='#n112'>112</a>
+<a id='n113' href='#n113'>113</a>
+<a id='n114' href='#n114'>114</a>
+<a id='n115' href='#n115'>115</a>
+<a id='n116' href='#n116'>116</a>
+<a id='n117' href='#n117'>117</a>
+<a id='n118' href='#n118'>118</a>
+<a id='n119' href='#n119'>119</a>
+<a id='n120' href='#n120'>120</a>
+<a id='n121' href='#n121'>121</a>
+<a id='n122' href='#n122'>122</a>
+<a id='n123' href='#n123'>123</a>
+<a id='n124' href='#n124'>124</a>
+<a id='n125' href='#n125'>125</a>
+<a id='n126' href='#n126'>126</a>
+<a id='n127' href='#n127'>127</a>
+<a id='n128' href='#n128'>128</a>
+<a id='n129' href='#n129'>129</a>
+<a id='n130' href='#n130'>130</a>
+<a id='n131' href='#n131'>131</a>
+<a id='n132' href='#n132'>132</a>
+<a id='n133' href='#n133'>133</a>
+<a id='n134' href='#n134'>134</a>
+<a id='n135' href='#n135'>135</a>
+<a id='n136' href='#n136'>136</a>
+<a id='n137' href='#n137'>137</a>
+<a id='n138' href='#n138'>138</a>
+<a id='n139' href='#n139'>139</a>
+<a id='n140' href='#n140'>140</a>
+<a id='n141' href='#n141'>141</a>
+<a id='n142' href='#n142'>142</a>
+<a id='n143' href='#n143'>143</a>
+<a id='n144' href='#n144'>144</a>
+<a id='n145' href='#n145'>145</a>
+<a id='n146' href='#n146'>146</a>
+<a id='n147' href='#n147'>147</a>
+<a id='n148' href='#n148'>148</a>
+<a id='n149' href='#n149'>149</a>
+<a id='n150' href='#n150'>150</a>
+<a id='n151' href='#n151'>151</a>
+<a id='n152' href='#n152'>152</a>
+<a id='n153' href='#n153'>153</a>
+<a id='n154' href='#n154'>154</a>
+<a id='n155' href='#n155'>155</a>
+<a id='n156' href='#n156'>156</a>
+<a id='n157' href='#n157'>157</a>
+<a id='n158' href='#n158'>158</a>
+<a id='n159' href='#n159'>159</a>
+<a id='n160' href='#n160'>160</a>
+<a id='n161' href='#n161'>161</a>
+<a id='n162' href='#n162'>162</a>
+<a id='n163' href='#n163'>163</a>
+<a id='n164' href='#n164'>164</a>
+<a id='n165' href='#n165'>165</a>
+<a id='n166' href='#n166'>166</a>
+<a id='n167' href='#n167'>167</a>
+<a id='n168' href='#n168'>168</a>
+<a id='n169' href='#n169'>169</a>
+<a id='n170' href='#n170'>170</a>
+<a id='n171' href='#n171'>171</a>
+<a id='n172' href='#n172'>172</a>
+<a id='n173' href='#n173'>173</a>
+<a id='n174' href='#n174'>174</a>
+<a id='n175' href='#n175'>175</a>
+<a id='n176' href='#n176'>176</a>
+<a id='n177' href='#n177'>177</a>
+<a id='n178' href='#n178'>178</a>
+<a id='n179' href='#n179'>179</a>
+<a id='n180' href='#n180'>180</a>
+<a id='n181' href='#n181'>181</a>
+<a id='n182' href='#n182'>182</a>
+<a id='n183' href='#n183'>183</a>
+<a id='n184' href='#n184'>184</a>
+<a id='n185' href='#n185'>185</a>
+<a id='n186' href='#n186'>186</a>
+<a id='n187' href='#n187'>187</a>
+<a id='n188' href='#n188'>188</a>
+<a id='n189' href='#n189'>189</a>
+<a id='n190' href='#n190'>190</a>
+<a id='n191' href='#n191'>191</a>
+<a id='n192' href='#n192'>192</a>
+<a id='n193' href='#n193'>193</a>
+<a id='n194' href='#n194'>194</a>
+<a id='n195' href='#n195'>195</a>
+<a id='n196' href='#n196'>196</a>
+<a id='n197' href='#n197'>197</a>
+<a id='n198' href='#n198'>198</a>
+<a id='n199' href='#n199'>199</a>
+<a id='n200' href='#n200'>200</a>
+<a id='n201' href='#n201'>201</a>
+<a id='n202' href='#n202'>202</a>
+<a id='n203' href='#n203'>203</a>
+<a id='n204' href='#n204'>204</a>
+<a id='n205' href='#n205'>205</a>
+<a id='n206' href='#n206'>206</a>
+<a id='n207' href='#n207'>207</a>
+<a id='n208' href='#n208'>208</a>
+<a id='n209' href='#n209'>209</a>
+<a id='n210' href='#n210'>210</a>
+<a id='n211' href='#n211'>211</a>
+<a id='n212' href='#n212'>212</a>
+<a id='n213' href='#n213'>213</a>
+<a id='n214' href='#n214'>214</a>
+<a id='n215' href='#n215'>215</a>
+<a id='n216' href='#n216'>216</a>
+<a id='n217' href='#n217'>217</a>
+<a id='n218' href='#n218'>218</a>
+<a id='n219' href='#n219'>219</a>
+<a id='n220' href='#n220'>220</a>
+<a id='n221' href='#n221'>221</a>
+<a id='n222' href='#n222'>222</a>
+<a id='n223' href='#n223'>223</a>
+<a id='n224' href='#n224'>224</a>
+<a id='n225' href='#n225'>225</a>
+<a id='n226' href='#n226'>226</a>
+<a id='n227' href='#n227'>227</a>
+<a id='n228' href='#n228'>228</a>
+<a id='n229' href='#n229'>229</a>
+<a id='n230' href='#n230'>230</a>
+<a id='n231' href='#n231'>231</a>
+<a id='n232' href='#n232'>232</a>
+<a id='n233' href='#n233'>233</a>
+<a id='n234' href='#n234'>234</a>
+<a id='n235' href='#n235'>235</a>
+<a id='n236' href='#n236'>236</a>
+<a id='n237' href='#n237'>237</a>
+<a id='n238' href='#n238'>238</a>
+<a id='n239' href='#n239'>239</a>
+<a id='n240' href='#n240'>240</a>
+<a id='n241' href='#n241'>241</a>
+<a id='n242' href='#n242'>242</a>
+<a id='n243' href='#n243'>243</a>
+<a id='n244' href='#n244'>244</a>
+<a id='n245' href='#n245'>245</a>
+<a id='n246' href='#n246'>246</a>
+<a id='n247' href='#n247'>247</a>
+<a id='n248' href='#n248'>248</a>
+<a id='n249' href='#n249'>249</a>
+<a id='n250' href='#n250'>250</a>
+<a id='n251' href='#n251'>251</a>
+<a id='n252' href='#n252'>252</a>
+<a id='n253' href='#n253'>253</a>
+<a id='n254' href='#n254'>254</a>
+<a id='n255' href='#n255'>255</a>
+<a id='n256' href='#n256'>256</a>
+<a id='n257' href='#n257'>257</a>
+<a id='n258' href='#n258'>258</a>
+<a id='n259' href='#n259'>259</a>
+<a id='n260' href='#n260'>260</a>
+<a id='n261' href='#n261'>261</a>
+<a id='n262' href='#n262'>262</a>
+<a id='n263' href='#n263'>263</a>
+<a id='n264' href='#n264'>264</a>
+<a id='n265' href='#n265'>265</a>
+<a id='n266' href='#n266'>266</a>
+<a id='n267' href='#n267'>267</a>
+<a id='n268' href='#n268'>268</a>
+<a id='n269' href='#n269'>269</a>
+<a id='n270' href='#n270'>270</a>
+<a id='n271' href='#n271'>271</a>
+<a id='n272' href='#n272'>272</a>
+<a id='n273' href='#n273'>273</a>
+<a id='n274' href='#n274'>274</a>
+<a id='n275' href='#n275'>275</a>
+<a id='n276' href='#n276'>276</a>
+<a id='n277' href='#n277'>277</a>
+<a id='n278' href='#n278'>278</a>
+<a id='n279' href='#n279'>279</a>
+<a id='n280' href='#n280'>280</a>
+<a id='n281' href='#n281'>281</a>
+<a id='n282' href='#n282'>282</a>
+<a id='n283' href='#n283'>283</a>
+<a id='n284' href='#n284'>284</a>
+<a id='n285' href='#n285'>285</a>
+<a id='n286' href='#n286'>286</a>
+<a id='n287' href='#n287'>287</a>
+<a id='n288' href='#n288'>288</a>
+<a id='n289' href='#n289'>289</a>
+<a id='n290' href='#n290'>290</a>
+<a id='n291' href='#n291'>291</a>
+<a id='n292' href='#n292'>292</a>
+<a id='n293' href='#n293'>293</a>
+<a id='n294' href='#n294'>294</a>
+<a id='n295' href='#n295'>295</a>
+<a id='n296' href='#n296'>296</a>
+<a id='n297' href='#n297'>297</a>
+<a id='n298' href='#n298'>298</a>
+<a id='n299' href='#n299'>299</a>
+<a id='n300' href='#n300'>300</a>
+<a id='n301' href='#n301'>301</a>
+<a id='n302' href='#n302'>302</a>
+<a id='n303' href='#n303'>303</a>
+<a id='n304' href='#n304'>304</a>
+<a id='n305' href='#n305'>305</a>
+<a id='n306' href='#n306'>306</a>
+<a id='n307' href='#n307'>307</a>
+<a id='n308' href='#n308'>308</a>
+<a id='n309' href='#n309'>309</a>
+<a id='n310' href='#n310'>310</a>
+<a id='n311' href='#n311'>311</a>
+<a id='n312' href='#n312'>312</a>
+<a id='n313' href='#n313'>313</a>
+<a id='n314' href='#n314'>314</a>
+<a id='n315' href='#n315'>315</a>
+<a id='n316' href='#n316'>316</a>
+<a id='n317' href='#n317'>317</a>
+<a id='n318' href='#n318'>318</a>
+<a id='n319' href='#n319'>319</a>
+<a id='n320' href='#n320'>320</a>
+<a id='n321' href='#n321'>321</a>
+<a id='n322' href='#n322'>322</a>
+<a id='n323' href='#n323'>323</a>
+<a id='n324' href='#n324'>324</a>
+<a id='n325' href='#n325'>325</a>
+<a id='n326' href='#n326'>326</a>
+<a id='n327' href='#n327'>327</a>
+<a id='n328' href='#n328'>328</a>
+<a id='n329' href='#n329'>329</a>
+<a id='n330' href='#n330'>330</a>
+<a id='n331' href='#n331'>331</a>
+<a id='n332' href='#n332'>332</a>
+<a id='n333' href='#n333'>333</a>
+<a id='n334' href='#n334'>334</a>
+<a id='n335' href='#n335'>335</a>
+<a id='n336' href='#n336'>336</a>
+<a id='n337' href='#n337'>337</a>
+<a id='n338' href='#n338'>338</a>
+<a id='n339' href='#n339'>339</a>
+<a id='n340' href='#n340'>340</a>
+<a id='n341' href='#n341'>341</a>
+<a id='n342' href='#n342'>342</a>
+<a id='n343' href='#n343'>343</a>
+<a id='n344' href='#n344'>344</a>
+<a id='n345' href='#n345'>345</a>
+<a id='n346' href='#n346'>346</a>
+<a id='n347' href='#n347'>347</a>
+<a id='n348' href='#n348'>348</a>
+<a id='n349' href='#n349'>349</a>
+<a id='n350' href='#n350'>350</a>
+<a id='n351' href='#n351'>351</a>
+<a id='n352' href='#n352'>352</a>
+<a id='n353' href='#n353'>353</a>
+<a id='n354' href='#n354'>354</a>
+<a id='n355' href='#n355'>355</a>
+<a id='n356' href='#n356'>356</a>
+<a id='n357' href='#n357'>357</a>
+<a id='n358' href='#n358'>358</a>
+<a id='n359' href='#n359'>359</a>
+<a id='n360' href='#n360'>360</a>
+<a id='n361' href='#n361'>361</a>
+<a id='n362' href='#n362'>362</a>
+<a id='n363' href='#n363'>363</a>
+<a id='n364' href='#n364'>364</a>
+<a id='n365' href='#n365'>365</a>
+<a id='n366' href='#n366'>366</a>
+<a id='n367' href='#n367'>367</a>
+<a id='n368' href='#n368'>368</a>
+<a id='n369' href='#n369'>369</a>
+<a id='n370' href='#n370'>370</a>
+<a id='n371' href='#n371'>371</a>
+<a id='n372' href='#n372'>372</a>
+<a id='n373' href='#n373'>373</a>
+<a id='n374' href='#n374'>374</a>
+<a id='n375' href='#n375'>375</a>
+<a id='n376' href='#n376'>376</a>
+<a id='n377' href='#n377'>377</a>
+<a id='n378' href='#n378'>378</a>
+<a id='n379' href='#n379'>379</a>
+<a id='n380' href='#n380'>380</a>
+<a id='n381' href='#n381'>381</a>
+<a id='n382' href='#n382'>382</a>
+<a id='n383' href='#n383'>383</a>
+<a id='n384' href='#n384'>384</a>
+<a id='n385' href='#n385'>385</a>
+<a id='n386' href='#n386'>386</a>
+<a id='n387' href='#n387'>387</a>
+<a id='n388' href='#n388'>388</a>
+<a id='n389' href='#n389'>389</a>
+<a id='n390' href='#n390'>390</a>
+<a id='n391' href='#n391'>391</a>
+<a id='n392' href='#n392'>392</a>
+<a id='n393' href='#n393'>393</a>
+<a id='n394' href='#n394'>394</a>
+<a id='n395' href='#n395'>395</a>
+<a id='n396' href='#n396'>396</a>
+<a id='n397' href='#n397'>397</a>
+<a id='n398' href='#n398'>398</a>
+<a id='n399' href='#n399'>399</a>
+<a id='n400' href='#n400'>400</a>
+<a id='n401' href='#n401'>401</a>
+<a id='n402' href='#n402'>402</a>
+<a id='n403' href='#n403'>403</a>
+<a id='n404' href='#n404'>404</a>
+<a id='n405' href='#n405'>405</a>
+<a id='n406' href='#n406'>406</a>
+<a id='n407' href='#n407'>407</a>
+<a id='n408' href='#n408'>408</a>
+<a id='n409' href='#n409'>409</a>
+<a id='n410' href='#n410'>410</a>
+<a id='n411' href='#n411'>411</a>
+<a id='n412' href='#n412'>412</a>
+<a id='n413' href='#n413'>413</a>
+<a id='n414' href='#n414'>414</a>
+<a id='n415' href='#n415'>415</a>
+<a id='n416' href='#n416'>416</a>
+<a id='n417' href='#n417'>417</a>
+<a id='n418' href='#n418'>418</a>
+<a id='n419' href='#n419'>419</a>
+<a id='n420' href='#n420'>420</a>
+<a id='n421' href='#n421'>421</a>
+<a id='n422' href='#n422'>422</a>
+<a id='n423' href='#n423'>423</a>
+<a id='n424' href='#n424'>424</a>
+<a id='n425' href='#n425'>425</a>
+<a id='n426' href='#n426'>426</a>
+<a id='n427' href='#n427'>427</a>
+<a id='n428' href='#n428'>428</a>
+<a id='n429' href='#n429'>429</a>
+<a id='n430' href='#n430'>430</a>
+<a id='n431' href='#n431'>431</a>
+<a id='n432' href='#n432'>432</a>
+<a id='n433' href='#n433'>433</a>
+<a id='n434' href='#n434'>434</a>
+<a id='n435' href='#n435'>435</a>
+<a id='n436' href='#n436'>436</a>
+<a id='n437' href='#n437'>437</a>
+<a id='n438' href='#n438'>438</a>
+<a id='n439' href='#n439'>439</a>
+<a id='n440' href='#n440'>440</a>
+<a id='n441' href='#n441'>441</a>
+<a id='n442' href='#n442'>442</a>
+<a id='n443' href='#n443'>443</a>
+<a id='n444' href='#n444'>444</a>
+<a id='n445' href='#n445'>445</a>
+<a id='n446' href='#n446'>446</a>
+<a id='n447' href='#n447'>447</a>
+<a id='n448' href='#n448'>448</a>
+<a id='n449' href='#n449'>449</a>
+<a id='n450' href='#n450'>450</a>
+<a id='n451' href='#n451'>451</a>
+</pre></td>
+<td class='lines'><pre><code><style>pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight .hll { background-color: #ffffcc }
+.highlight .c { color: #888888 } /* Comment */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .k { color: #008800; font-weight: bold } /* Keyword */
+.highlight .ch { color: #888888 } /* Comment.Hashbang */
+.highlight .cm { color: #888888 } /* Comment.Multiline */
+.highlight .cp { color: #cc0000; font-weight: bold } /* Comment.Preproc */
+.highlight .cpf { color: #888888 } /* Comment.PreprocFile */
+.highlight .c1 { color: #888888 } /* Comment.Single */
+.highlight .cs { color: #cc0000; font-weight: bold; background-color: #fff0f0 } /* Comment.Special */
+.highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .ges { font-weight: bold; font-style: italic } /* Generic.EmphStrong */
+.highlight .gr { color: #aa0000 } /* Generic.Error */
+.highlight .gh { color: #333333 } /* Generic.Heading */
+.highlight .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #555555 } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #666666 } /* Generic.Subheading */
+.highlight .gt { color: #aa0000 } /* Generic.Traceback */
+.highlight .kc { color: #008800; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008800; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008800; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008800 } /* Keyword.Pseudo */
+.highlight .kr { color: #008800; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #888888; font-weight: bold } /* Keyword.Type */
+.highlight .m { color: #0000DD; font-weight: bold } /* Literal.Number */
+.highlight .s { color: #dd2200; background-color: #fff0f0 } /* Literal.String */
+.highlight .na { color: #336699 } /* Name.Attribute */
+.highlight .nb { color: #003388 } /* Name.Builtin */
+.highlight .nc { color: #bb0066; font-weight: bold } /* Name.Class */
+.highlight .no { color: #003366; font-weight: bold } /* Name.Constant */
+.highlight .nd { color: #555555 } /* Name.Decorator */
+.highlight .ne { color: #bb0066; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0066bb; font-weight: bold } /* Name.Function */
+.highlight .nl { color: #336699; font-style: italic } /* Name.Label */
+.highlight .nn { color: #bb0066; font-weight: bold } /* Name.Namespace */
+.highlight .py { color: #336699; font-weight: bold } /* Name.Property */
+.highlight .nt { color: #bb0066; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #336699 } /* Name.Variable */
+.highlight .ow { color: #008800 } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #0000DD; font-weight: bold } /* Literal.Number.Bin */
+.highlight .mf { color: #0000DD; font-weight: bold } /* Literal.Number.Float */
+.highlight .mh { color: #0000DD; font-weight: bold } /* Literal.Number.Hex */
+.highlight .mi { color: #0000DD; font-weight: bold } /* Literal.Number.Integer */
+.highlight .mo { color: #0000DD; font-weight: bold } /* Literal.Number.Oct */
+.highlight .sa { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Affix */
+.highlight .sb { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Backtick */
+.highlight .sc { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Char */
+.highlight .dl { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Delimiter */
+.highlight .sd { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Doc */
+.highlight .s2 { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Double */
+.highlight .se { color: #0044dd; background-color: #fff0f0 } /* Literal.String.Escape */
+.highlight .sh { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Heredoc */
+.highlight .si { color: #3333bb; background-color: #fff0f0 } /* Literal.String.Interpol */
+.highlight .sx { color: #22bb22; background-color: #f0fff0 } /* Literal.String.Other */
+.highlight .sr { color: #008800; background-color: #fff0ff } /* Literal.String.Regex */
+.highlight .s1 { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Single */
+.highlight .ss { color: #aa6600; background-color: #fff0f0 } /* Literal.String.Symbol */
+.highlight .bp { color: #003388 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0066bb; font-weight: bold } /* Name.Function.Magic */
+.highlight .vc { color: #336699 } /* Name.Variable.Class */
+.highlight .vg { color: #dd7700 } /* Name.Variable.Global */
+.highlight .vi { color: #3333bb } /* Name.Variable.Instance */
+.highlight .vm { color: #336699 } /* Name.Variable.Magic */
+.highlight .il { color: #0000DD; font-weight: bold } /* Literal.Number.Integer.Long */</style><div class="highlight"><pre><span></span>&lt;img src=&quot;https://git.herrbischoff.com/awesome-command-line-apps/plain/assets/logo.svg&quot; width=&quot;600&quot;&gt;
+
+<span class="k">&gt; </span><span class="ge">A curated list of useful command line apps, in celebration of the TUI.</span>
+<span class="k">&gt;</span>
+<span class="ge">&gt; _“Knowledge brings fear” (Mars University Mission Statement)_</span>
+
+[<span class="nt">![Awesome</span>](<span class="na">https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg</span>)](https://github.com/sindresorhus/awesome)
+
+If you want to contribute, you are highly encouraged to do so. Please read the [<span class="nt">contribution guidelines</span>](<span class="na">contributing.md</span>).
+
+<span class="gu">## Women Empowerment in Zanzibar</span>
+
+Send a little karma down the way and support women empowerment in Zanzibar by
+helping to [<span class="nt">fund the local production of reusable female hygiene</span>
+<span class="nt">products</span>](<span class="na">https://www.gofundme.com/f/women-empowerment-in-zanzibar</span>). A very
+dear friend of mine runs the project. They were already able to buy hundreds of
+educational books. Sometimes, it takes so little to make a huge impact. If
+you&#39;d like to thank me or support this work, donate. Additionally, any current
+and future sponsoring of my work via GitHub or other channels will flow one
+hundred percent to the NGO.
+
+<span class="gu">## Contents</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">\*nix/\*nux</span>](<span class="na">#nixnux</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Automation</span>](<span class="na">#automation</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Backup</span>](<span class="na">#backup</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Benchmarking</span>](<span class="na">#benchmarking</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Cloud Services</span>](<span class="na">#cloud-services</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Compression</span>](<span class="na">#compression</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Content Creation</span>](<span class="na">#content-creation</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Conversion</span>](<span class="na">#conversion</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Data Processing</span>](<span class="na">#data-processing</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Databases</span>](<span class="na">#databases</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Developer</span>](<span class="na">#developer</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Dotfile Management</span>](<span class="na">#dotfile-management</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Download Utilities</span>](<span class="na">#download-utilities</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Email</span>](<span class="na">#email</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Encryption</span>](<span class="na">#encryption</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Filesystem Management</span>](<span class="na">#filesystem-management</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">FTP</span>](<span class="na">#ftp</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Games</span>](<span class="na">#games</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">IRC</span>](<span class="na">#irc</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Media</span>](<span class="na">#media</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Miscellaneous</span>](<span class="na">#miscellaneous</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Networking</span>](<span class="na">#networking</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Presentation</span>](<span class="na">#presentation</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Productivity</span>](<span class="na">#productivity</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">RSS</span>](<span class="na">#rss</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Searching</span>](<span class="na">#searching</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Security</span>](<span class="na">#security</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Shells</span>](<span class="na">#shells</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">SSH</span>](<span class="na">#ssh</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">System</span>](<span class="na">#system</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Terminal</span>](<span class="na">#terminal</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Text Editors</span>](<span class="na">#text-editors</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">Version Control</span>](<span class="na">#version-control</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">VPN</span>](<span class="na">#vpn</span>)
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>[<span class="nt">World Wide Web</span>](<span class="na">#world-wide-web</span>)
+<span class="k">-</span><span class="w"> </span>[<span class="nt">BSD</span>](<span class="na">#bsd</span>)
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Linux</span>](<span class="na">#linux</span>)
+<span class="k">-</span><span class="w"> </span>[<span class="nt">macOS</span>](<span class="na">#macos</span>)
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Helpers</span>](<span class="na">#helpers</span>)
+
+
+<span class="gu">## \*nix/\*nux</span>
+
+<span class="gu">### Automation</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Ansible</span>](<span class="na">https://www.ansible.com</span>) - Automate deployment, configuration, and upgrading.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">fswatch</span>](<span class="na">https://github.com/emcrisostomo/fswatch</span>) - Cross-platform file change monitor with multiple backends.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">rocinante</span>](<span class="na">https://rocinante.sh</span>) - Lightweight configuration management software for FreeBSD.
+
+<span class="gu">### Backup</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Amanda</span>](<span class="na">http://www.amanda.org</span>) - Open Source Network Backup for Linux, Windows, UNIX and OS X.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Attic</span>](<span class="na">https://attic-backup.org</span>) - Deduplicating backup program written in Python.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Bacula</span>](<span class="na">http://blog.bacula.org</span>) - Manage backups, recovery, and verification of computer data across a network of computers of different kinds.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">BorgBackup</span>](<span class="na">https://github.com/borgbackup/borg</span>) - Significantly improved fork of Attic.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">duply</span>](<span class="na">http://duply.net</span>) - Easily create GPG encrypted, compressed backups of any data almost anywhere.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">mysqldump-secure</span>](<span class="na">https://github.com/cytopia/mysqldump-secure</span>) - Secure mysqldump script with encryption, compression, logging, blacklisting and Nagios monitoring integration.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Restic</span>](<span class="na">https://restic.net</span>) - Fast, secure, efficient backup program.
+
+
+<span class="gu">### Benchmarking</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">hyperfine</span>](<span class="na">https://github.com/sharkdp/hyperfine</span>) - Benchmark commands through the command line.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">loadtest</span>](<span class="na">https://github.com/alexfernandez/loadtest</span>) - Runs a load test on the selected HTTP URL.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">pv</span>](<span class="na">http://www.ivarch.com/programs/pv.shtml</span>) - Monitor the progress of data through a pipeline.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">siege</span>](<span class="na">https://www.joedog.org/siege-home/</span>) - HTTP load testing and benchmarking utility.
+
+<span class="gu">### Cloud Services</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">awless</span>](<span class="na">https://github.com/wallix/awless</span>) - Mighty command-line interface for Amazon Web Services.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">awscli</span>](<span class="na">https://aws.amazon.com/cli/</span>) - Official Amazon AWS command-line interface.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">cadaver</span>](<span class="na">http://www.webdav.org/cadaver/</span>) - WebDAV client for Unix.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">google-drive-upload</span>](<span class="na">https://github.com/labbots/google-drive-upload</span>) - Upload and sync files to Google Drive.
+
+<span class="gu">### Compression</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">archivemount</span>](<span class="na">http://www.cybernoia.de/software/archivemount.html</span>) - FUSE filesystem using libarchive to mount archives.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">dtrx</span>](<span class="na">https://github.com/moonpyk/dtrx</span>) - Takes all the hassle out of extracting archives.
+
+<span class="gu">### Content Creation</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">GitBook</span>](<span class="na">https://www.npmjs.com/package/gitbook</span>) - Library and cmd utility to generate GitBooks.
+
+<span class="gu">### Conversion</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">binchunker</span>](<span class="na">http://he.fi/bchunk/</span>) - Converts a CD image in a &quot;.bin/.cue&quot; format (sometimes &quot;.raw/.cue&quot;) to a set of .iso and .cdr tracks.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Echo</span>](<span class="na">https://github.com/misterGF/echo</span>) - Convert HTML tables to JSON/CSVs.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Pandoc</span>](<span class="na">http://pandoc.org/</span>) - Universal document converter.
+
+<span class="gu">### Databases</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">LiteCLI</span>](<span class="na">https://litecli.com</span>) - SQLite client with auto-completion.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">mycli</span>](<span class="na">http://mycli.net</span>) - Command-line interface for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">pgcli</span>](<span class="na">http://pgcli.com</span>) - Command-line interface for Postgres with auto-completion and syntax highlighting.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">usql</span>](<span class="na">https://github.com/xo/usql</span>) - Universal command-line interface for SQL databases.
+
+<span class="gu">### Data Processing</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">datamash</span>](<span class="na">https://www.gnu.org/software/datamash/</span>) - Perform basic numeric, textual and statistical operations on textual data files.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">edcount</span>](<span class="na">https://github.com/haroldfreeman/edcount</span>) - Estimate distinct count of values from standard input.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">hq</span>](<span class="na">https://github.com/rbwinslow/hq</span>) - Powerful command-line tool for slicing &amp; dicing HTML.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">jq</span>](<span class="na">https://stedolan.github.io/jq/</span>) - Lightweight and flexible JSON processor.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Miller</span>](<span class="na">https://github.com/johnkerl/miller</span>) - Like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">pup</span>](<span class="na">https://github.com/ericchiang/pup</span>) - Parsing HTML at the command line.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">tq</span>](<span class="na">https://github.com/plainas/tq</span>) - Perform a lookup by CSS selector on an HTML input.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">xq</span>](<span class="na">https://github.com/jeffbr13/xq</span>) - Like jq, but for XML and XPath.
+
+<span class="gu">### Developer</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">bat</span>](<span class="na">https://github.com/astaxie/bat</span>) - Go implement CLI, cURL-like tool for humans.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">bcal</span>](<span class="na">https://github.com/jarun/bcal</span>) - Byte calculator for storage conversions and calculations.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">bitwise</span>](<span class="na">https://github.com/mellowcandle/bitwise</span>) - Interactive bit manipulator in curses.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">caniuse-cmd</span>](<span class="na">https://github.com/sgentle/caniuse-cmd</span>) - All the power of caniuse.com with none of the GUI.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">clog</span>](<span class="na">https://github.com/kentcdodds/clog-cli</span>) - Conventional changelog for the rest of us.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Cookiecutter</span>](<span class="na">https://github.com/audreyr/cookiecutter</span>) - Creates projects from cookiecutters (project templates).
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Critical</span>](<span class="na">https://github.com/addyosmani/critical</span>) - Extract &amp; inline critical-path CSS in HTML pages.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">diff-so-fancy</span>](<span class="na">https://github.com/so-fancy/diff-so-fancy</span>) - Better, highly readable diffs.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">git-filter-repo</span>](<span class="na">https://github.com/newren/git-filter-repo</span>) - Quickly rewrite git repository history (filter-branch replacement).
+<span class="k">-</span><span class="w"> </span>[<span class="nt">grex</span>](<span class="na">https://github.com/pemistahl/grex</span>) - Generate regular expressions from user-provided test cases.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Grunt</span>](<span class="na">http://gruntjs.com</span>) - The JavaScript Task Runner.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">gulp</span>](<span class="na">http://gulpjs.com</span>) - Automate and enhance your build workflow.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">how2</span>](<span class="na">https://github.com/santinic/how2</span>) - Stack Overflow from the terminal.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">howdoi</span>](<span class="na">https://github.com/gleitz/howdoi</span>) - Instant coding answers via the command line.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">http-prompt</span>](<span class="na">https://github.com/eliangcs/http-prompt</span>) - Interactive HTTP client featuring autocomplete and syntax highlighting, built on HTTPie and prompt_toolkit.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">HTTPie</span>](<span class="na">https://github.com/jkbrzt/httpie</span>) - User-friendly cURL replacement featuring intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">penthouse</span>](<span class="na">https://github.com/pocketjoso/penthouse</span>) - Critical path CSS generator.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Publoy</span>](<span class="na">http://abhiomkar.github.io/publoy/</span>) - Command line tool to deploy your static web apps via Dropbox.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Rebound</span>](<span class="na">https://github.com/shobrook/rebound</span>) - Instantly fetch Stack Overflow results when you get a compiler error.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">saws</span>](<span class="na">https://github.com/donnemartin/saws</span>) - Supercharged AWS command-line interface.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">shellcheck</span>](<span class="na">https://github.com/koalaman/shellcheck</span>) - Static analysis tool for shell scripts.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">sift</span>](<span class="na">https://sift-tool.org</span>) - Fast and powerful open source alternative to grep.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">tokei</span>](<span class="na">https://github.com/XAMPPRocky/tokei</span>) - Quickly display statistics about your code like number of files, total lines, comments and blanks, grouped by language.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Yarn</span>](<span class="na">https://yarnpkg.com</span>) - Deterministic, secure alternative to npm.
+
+<span class="gu">### Dotfile Management</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">dotdrop</span>](<span class="na">https://github.com/deadc0de6/dotdrop</span>) - Save your dotfiles once, deploy them everywhere.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">homeshick</span>](<span class="na">https://github.com/andsens/homeshick</span>) - Git dotfiles synchronizer written in Bash.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">yadm</span>](<span class="na">https://yadm.io</span>) - Yet Another Dotfiles Manager.
+
+<span class="gu">### Download Utilities</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">aria2</span>](<span class="na">http://aria2.sourceforge.net</span>) - Lightweight multi-protocol &amp; multi-source command-line download utility.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">peerflix</span>](<span class="na">https://github.com/mafintosh/peerflix</span>) - Streaming torrent client for node.js.
+
+<span class="gu">### Email</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">abook</span>](<span class="na">http://abook.sourceforge.net/</span>) - Text-based address book program designed to use with mutt mail client.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">aerc</span>](<span class="na">https://aerc-mail.org</span>) - A pretty good email client.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Alpine</span>](<span class="na">http://alpine.x10host.com/alpine/</span>) - Fast, easy to use email client.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">IMAPdedup</span>](<span class="na">https://github.com/quentinsf/IMAPdedup</span>) - IMAP message de-duplicator.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">imapsync</span>](<span class="na">https://github.com/imapsync/imapsync</span>) - IMAP synchronisation, sync, copy or migration tool.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">isync</span>](<span class="na">http://isync.sourceforge.net/</span>) - Synchronize Maildir and IMAP4 mailboxes both ways.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">mu</span>](<span class="na">https://djcbsoftware.nl/code/mu/</span>) - Set of tools to deal with Maildirs and message files, minimal Notmuch alternative.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Mutt</span>](<span class="na">http://www.mutt.org</span>) - All mail clients suck, this one just sucks less.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Notmuch</span>](<span class="na">https://notmuchmail.org</span>) - Fast, global-search and tag-based email system.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">OfflineIMAP</span>](<span class="na">https://github.com/OfflineIMAP/offlineimap</span>) - Two-way sync your e-mail mailboxes as a local Maildir.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">piler</span>](<span class="na">http://www.mailpiler.org/wiki/start</span>) - Email archiving solution, a viable alternative to commercial products.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Sup</span>](<span class="na">https://github.com/sup-heliotrope/sup</span>) - Curses threads-with-tags style email client.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Terjira</span>](<span class="na">https://github.com/keepcosmos/terjira</span>) - Command line power tool for Jira.
+
+<span class="gu">### Encryption</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">EncFS</span>](<span class="na">https://vgough.github.io/encfs/</span>) - Provides an encrypted filesystem in user-space.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">GnuPG</span>](<span class="na">https://www.gnupg.org</span>) - Complete and free implementation of the OpenPGP standard as defined by RFC4880 (also known as PGP).
+
+<span class="gu">### Filesystem Management</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">dust</span>](<span class="na">https://github.com/bootandy/dust</span>) - More intuitive version of &#39;du&#39;.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">FDUPES</span>](<span class="na">https://github.com/adrianlopezroche/fdupes</span>) - Identify or delete duplicate files residing within specified directories.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Midnight Commander</span>](<span class="na">http://www.midnight-commander.org</span>) - Feature-rich visual file manager.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Ncdu</span>](<span class="na">https://dev.yorhel.nl/ncdu</span>) - Disk usage analyzer with an ncurses interface.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">nnn</span>](<span class="na">https://github.com/jarun/nnn</span>) - Fast, minimal and extensible file manager.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">ranger</span>](<span class="na">http://ranger.nongnu.org/</span>) - Minimalistic visual file manager featuring curses interface with vi key bindings.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">vifm</span>](<span class="na">http://vifm.info</span>) - ncurses based file manager with vi like keybindings/modes/options/commands/configuration, which also borrows some useful ideas from mutt.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">zfsnap</span>](<span class="na">http://www.zfsnap.org/</span>) - Rolling ZFS snapshots the easy way.
+
+<span class="gu">### FTP</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">CurlFtpFS</span>](<span class="na">http://curlftpfs.sourceforge.net/</span>) - Filesystem for accessing FTP hosts based on FUSE and libcurl.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">LFTP</span>](<span class="na">http://lftp.tech/</span>) - Sophisticated ftp/http client, and a file transfer program supporting a number of network protocols.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">NcFTP</span>](<span class="na">http://www.ncftp.com/ncftp/</span>) - Set of free application programs implementing the File Transfer Protocol (FTP).
+
+<span class="gu">### Games</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Angband</span>](<span class="na">http://rephial.org/</span>) - Free, single-player dungeon exploration game.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Cataclysm: Dark Days Ahead</span>](<span class="na">https://cataclysmdda.org/</span>) - Roguelike set in a post-apocalyptic world.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Curse of War</span>](<span class="na">https://a-nikolaev.github.io/curseofwar/</span>) - Fast-paced real-time action strategy game.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">dopewars</span>](<span class="na">http://dopewars.sourceforge.net</span>) - Deal in drugs on the streets of New York, amassing a huge fortune and paying off the loan shark, while avoiding the ever-annoying police.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Frotz</span>](<span class="na">http://frotz.sourceforge.net/</span>) - Interpreter for Infocom games and other Z-machine games.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Nethack</span>](<span class="na">http://nethack.org</span>) - Single player dungeon exploration game that runs on a wide variety of computer systems.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">vitetris</span>](<span class="na">http://www.victornils.net/tetris/</span>) - Tetris clone.
+
+<span class="gu">### IRC</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">BitlBee</span>](<span class="na">https://www.bitlbee.org/main.php/news.r.html</span>) - IRC to other chat networks gateway.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Irssi</span>](<span class="na">https://github.com/irssi/irssi</span>) - The client of the future.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">WeeChat</span>](<span class="na">https://weechat.org/</span>) - Fast, light and extensible chat client.
+
+<span class="gu">### Media</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">abcde</span>](<span class="na">https://abcde.einval.com/wiki/</span>) - A Better CD Encoder.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">AtomicParsely</span>](<span class="na">http://atomicparsley.sourceforge.net/</span>) - Reads, parses and sets metadata into MPEG-4 files.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Audiogrep</span>](<span class="na">https://antiboredom.github.io/audiogrep/</span>) - Creates audio supercuts.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Beets</span>](<span class="na">http://beets.io/</span>) - The music geek&#39;s media organizer.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">cmus</span>](<span class="na">https://cmus.github.io</span>) - Small, fast and powerful console music player for Unix-like operating systems.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">FFmpeg</span>](<span class="na">http://ffmpeg.org</span>) - Records, converts and streams audio and video.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Gifsicle</span>](<span class="na">http://www.lcdf.org/gifsicle/</span>) - Creates, edits, and gets information about GIF images and animations.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">HandBrakeCLI</span>](<span class="na">https://handbrake.fr</span>) - Converts video from nearly any format to a selection of modern, widely supported codecs.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Legofy</span>](<span class="na">https://github.com/JuanPotato/Legofy</span>) - Makes images look like they were built out of Lego.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">MediaInfo</span>](<span class="na">http://mediaarea.net/en/MediaInfo</span>) - Convenient unified display of the most relevant technical and tag data for video and audio files.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">MKVToolNix</span>](<span class="na">https://mkvtoolnix.download/</span>) - Set of tools to create, alter and inspect Matroska files under Linux, other Unices and Windows.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">mopidy</span>](<span class="na">https://www.mopidy.com/</span>) - Self-hosted MPD daemon that connects to Spotify and Soundcloud.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">moviemon</span>](<span class="na">https://github.com/iCHAIT/moviemon</span>) - Everything about your movies within the command-line.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">mp3fs</span>](<span class="na">https://khenriks.github.io/mp3fs/</span>) - FUSE-based transcoding filesystem from FLAC to MP3.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">mp4v2</span>](<span class="na">https://code.google.com/archive/p/mp4v2</span>) - Library and tools to provide functions to read, create, and modify mp4 files.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">mpg123</span>](<span class="na">http://mpg123.org</span>) - Fast console MPEG Audio Player and decoder library.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">mpv</span>](<span class="na">https://mpv.io</span>) - Free, open source, and cross-platform media player.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">musikcube</span>](<span class="na">https://musikcube.com</span>) - Fully functional terminal-based music player, library, and streaming audio server.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">ncmpcpp</span>](<span class="na">http://rybczak.net/ncmpcpp/</span>) - NCurses based MPD client.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">OptiPNG</span>](<span class="na">http://optipng.sourceforge.net</span>) - PNG optimizer that recompresses image files to a smaller size, without losing any information.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Pngcrush</span>](<span class="na">http://pmt.sourceforge.net/pngcrush/</span>) - Optimizer for PNG (Portable Network Graphics) files.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Shellpic</span>](<span class="na">https://github.com/larsjsol/shellpic</span>) - Display images inline in the shell, ASCII-art is so 2013.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">subdownloader</span>](<span class="na">https://github.com/beatfreaker/subdownloader</span>) - Downloading subtitles for one or more files is just a command away.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">ttystudio</span>](<span class="na">https://github.com/chjj/ttystudio</span>) - Terminal-to-gif recorder minus the headaches.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Video Transcoding Scripts</span>](<span class="na">https://github.com/donmelton/video_transcoding</span>) - Utilities to transcode, inspect and convert videos.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Videogrep</span>](<span class="na">https://antiboredom.github.io/videogrep/</span>) - Automatic supercuts with Python.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">youtube-dl</span>](<span class="na">http://rg3.github.io/youtube-dl/</span>) - Download videos from YouTube.com and a few more sites.
+
+<span class="gu">### Miscellaneous</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">ansiweather</span>](<span class="na">https://github.com/fcambus/ansiweather</span>) - Weather in your terminal, with ANSI colors and Unicode symbols.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">cointop</span>](<span class="na">https://github.com/miguelmota/cointop</span>) - Interactive cryptocurrency tracking.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">FIGlet</span>](<span class="na">http://www.figlet.org</span>) - Program for making large letters out of ordinary text.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">license</span>](<span class="na">https://nishanths.github.io/license/</span>) - Create LICENSEs from the command-line.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">pockyt</span>](<span class="na">https://github.com/arvindch/pockyt</span>) - Composable Pocket client for the terminal.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">wego</span>](<span class="na">https://github.com/schachmat/wego/</span>) - Weather client for the terminal.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">wttr.in</span>](<span class="na">https://github.com/chubin/wttr.in</span>) - Console-based weather forecasts.
+
+<span class="gu">### Networking</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">aggregate6</span>](<span class="na">https://github.com/job/aggregate6</span>) - IPv4 and IPv6 prefix aggregation tool.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">bandwhich</span>](<span class="na">https://github.com/imsnif/bandwhich</span>) - Displays current network utilization by process, connection and remote IP or hostname.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Bandwidth Monitor NG</span>](<span class="na">https://www.gropp.org/?id=projects&amp;sub=bwm-ng</span>) - Small and simple live network and disk IO bandwidth monitor.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Blucat</span>](<span class="na">http://blucat.sourceforge.net/blucat/</span>) - netcat for Bluetooth.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">gping</span>](<span class="na">https://github.com/orf/gping</span>) - Ping, but with a graph.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">httping</span>](<span class="na">https://www.vanheusden.com/httping/</span>) - Like &#39;ping&#39; but for http requests.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">iftop</span>](<span class="na">http://www.ex-parrot.com/pdw/iftop/</span>) - Display bandwidth usage on an interface.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">ipdb</span>](<span class="na">https://github.com/cyclaero/ipdb</span>) - Tools for IP based Geo-blocking and Geo-routing.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">localtunnel</span>](<span class="na">https://github.com/localtunnel/localtunnel</span>) - Exposes your localhost to the world for easy testing and sharing.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">mtr</span>](<span class="na">http://www.bitwizard.nl/mtr/</span>) - Combines the functionality of the &#39;traceroute&#39; and &#39;ping&#39; programs in a single network diagnostic tool.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Netcat</span>](<span class="na">http://netcat.sourceforge.net</span>) - Networking utility which reads and writes data across network connections, using the TCP/IP protocol.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Nethogs</span>](<span class="na">https://github.com/raboof/nethogs</span>) - Linux &#39;net top&#39; tool.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">ngrep</span>](<span class="na">http://ngrep.sourceforge.net</span>) - grep as a network packet analyzer.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">nmap</span>](<span class="na">https://nmap.org</span>) - Network discovery and security auditing utility.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">rs-aggregate</span>](<span class="na">https://github.com/ktims/rs-aggregate</span>) - Drop-in replacement for aggregate6, upwards of 100x faster.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">vnStat</span>](<span class="na">http://humdi.net/vnstat/</span>) - Console-based network traffic monitor for Linux and BSD that keeps a log of network traffic for the selected interface(s).
+
+<span class="gu">### Presentation</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">termui</span>](<span class="na">https://github.com/gizak/termui</span>) - Cross-platform, easy-to-compile, and fully-customizable terminal dashboard.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">WOPR</span>](<span class="na">https://github.com/yaronn/wopr</span>) - Simple markup language for creating rich terminal reports, presentations and infographics.
+
+<span class="gu">### Productivity</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">doing</span>](<span class="na">http://brettterpstra.com/projects/doing/</span>) - Keeping track of what you’re doing and tracking what you’ve done.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">idea</span>](<span class="na">https://github.com/IonicaBizau/idea</span>) - Lightweight CLI tool and module for keeping ideas in a safe place quick and easy.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">ledger</span>](<span class="na">http://ledger-cli.org</span>) - Powerful, double-entry accounting system that is accessed from the UNIX command-line.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">MapSCII</span>](<span class="na">https://github.com/rastapasta/mapscii</span>) - OpenStreetMap client, renders an explorable Braille &amp; ASCII world map.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">pdfgrep</span>](<span class="na">https://pdfgrep.org</span>) - Command-line utility to search text in PDF files.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">pin-cushion</span>](<span class="na">https://github.com/ELLIOTTCABLE/pin-cushion</span>) - Simple, maintained command-line interface to the Pinboard.in API.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Remind</span>](<span class="na">https://www.roaringpenguin.com/products/remind</span>) - Sophisticated calendar and alarm program.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">SC-IM</span>](<span class="na">https://github.com/andmarti1424/sc-im</span>) - ncurses-based spreadsheet application.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Taskwarrior</span>](<span class="na">http://taskwarrior.org</span>) - Manage your Todo list.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Timetrap</span>](<span class="na">https://github.com/samg/timetrap</span>) - Simple timetracker.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Watson</span>](<span class="na">http://tailordev.github.io/Watson/</span>) - Elegant time tracking.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">woof</span>](<span class="na">http://www.home.unix-ag.org/simon/woof.html</span>) - Simple one-off HTTP file sharing.
+
+<span class="gu">### RSS</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">newsbeuter</span>](<span class="na">https://www.newsbeuter.org/</span>) - The Mutt of RSS feed readers.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">rss2email</span>](<span class="na">http://www.allthingsrss.com/rss2email/</span>) - Get news from RSS feeds in email.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">rsstail</span>](<span class="na">https://www.vanheusden.com/rsstail/</span>) - Monitors a single RSS feed and emits only new entries.
+
+<span class="gu">### Searching</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">fd</span>](<span class="na">https://github.com/sharkdp/fd</span>) - fd is a simple, fast and user-friendly alternative to &#39;find&#39;.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">fselect</span>](<span class="na">https://github.com/jhspetersson/fselect</span>) - &#39;find&#39; replacement with SQL-like syntax.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">fzf</span>](<span class="na">https://github.com/junegunn/fzf</span>) - A general-purpose fuzzy finder.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">ripgrep</span>](<span class="na">https://github.com/BurntSushi/ripgrep</span>) - Recursively search directories for a regex pattern extremely fast.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">sd</span>](<span class="na">https://github.com/chmln/sd</span>) - Intuitive find-and-replace alternative to &#39;sed&#39;.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">The Silver Searcher</span>](<span class="na">http://geoff.greer.fm/ag/</span>) - Blazingly fast tool for searching code.
+
+<span class="gu">### Security</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">acme.sh</span>](<span class="na">https://github.com/Neilpang/acme.sh</span>) - Pure Unix shell script implementing ACME client protocol, for Let&#39;s Encrypt.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Aircrack-ng</span>](<span class="na">http://aircrack-ng.org</span>) - 802.11 WEP and WPA-PSK keys cracking program that can recover keys once enough data packets have been captured.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Let&#39;s Encrypt</span>](<span class="na">https://letsencrypt.org</span>) - Free, automated and open Certificate Authority.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">pass</span>](<span class="na">https://www.passwordstore.org</span>) - The standard Unix password manager.
+
+<span class="gu">### Shells</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">fish</span>](<span class="na">https://fishshell.com</span>) - Finally, a command line shell for the 90s.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Fisher</span>](<span class="na">https://github.com/jorgebucaran/fisher</span>) - Package manager for the fish shell.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">oksh</span>](<span class="na">https://github.com/ibara/oksh</span>) - Portable OpenBSD ksh, based on the Public Domain Korn Shell (pdksh).
+
+<span class="gu">### SSH</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">autossh</span>](<span class="na">https://www.harding.motd.ca/autossh/ </span>) - Automatically restart SSH sessions and tunnels.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">sshfs</span>](<span class="na">https://github.com/libfuse/sshfs</span>) - Locally mount a remote folder via SSH.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">storm</span>](<span class="na">http://stormssh.readthedocs.io/en/master/</span>) - Manage your SSH connections.
+
+<span class="gu">### System</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">ApacheTop</span>](<span class="na">http://freecode.com/projects/apachetop</span>) - Curses-based top-like display for Apache information, including requests per second, bytes per second, most popular URLs, etc.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">bottom</span>](<span class="na">https://github.com/ClementTsang/bottom</span>) - Graphical process/system monitor with a customizable interface and multitude of features.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">bpytop</span>](<span class="na">https://github.com/aristocratos/bpytop</span>) - Resource monitor that shows usage and stats for processor, memory, disks, network and processes.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">doas</span>](<span class="na">https://github.com/slicer69/doas</span>) - A port of OpenBSD&#39;s doas which runs on FreeBSD, Linux, NetBSD, and illumos.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">dstat</span>](<span class="na">http://dag.wiee.rs/home-made/dstat/</span>) - Versatile replacement for vmstat, iostat, netstat and ifstat.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">htop</span>](<span class="na">http://hisham.hm/htop/</span>) - Interactive process viewer.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">iotop</span>](<span class="na">http://repo.or.cz/iotop.git</span>) - Find out what&#39;s stressing and increasing load on your hard disks.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">maybe</span>](<span class="na">https://github.com/p-e-w/maybe</span>) - See what a program does before deciding whether you really want it to happen.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">neofetch</span>](<span class="na">https://github.com/dylanaraps/neofetch</span>) - Fast, highly customizable system info script.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">netboot.xyz</span>](<span class="na">https://netboot.xyz</span>) - Boot multiple Operating System installers or utilities over the network from a single menu.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">procs</span>](<span class="na">https://github.com/dalance/procs</span>) - Modern replacement for &#39;ps&#39;.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">screenFetch</span>](<span class="na">https://github.com/KittyKatt/screenFetch</span>) - Fetches system/theme information in terminal for desktop screenshots.
+
+<span class="gu">### Terminal</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">angle-grinder</span>](<span class="na">https://github.com/rcoh/angle-grinder</span>) - Slice and dice logs, allows to parse, aggregate, sum, average, min/max, percentile, and sort data.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">asciinema</span>](<span class="na">https://asciinema.org</span>) - Record terminal sessions and share them on the web.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">autojump</span>](<span class="na">https://github.com/wting/autojump</span>) - &#39;cd&#39; command that learns - easily navigate directories from the command line.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">bat</span>](<span class="na">https://github.com/sharkdp/bat</span>) - &#39;cat&#39; clone with syntax highlighting and Git integration.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">bgrep</span>](<span class="na">http://debugmo.de/2009/04/bgrep-a-binary-grep/</span>) - Like grep but for binary strings.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">byobu</span>](<span class="na">http://byobu.co</span>) - Text-based window manager and terminal multiplexer.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">ccat</span>](<span class="na">https://github.com/jingweno/ccat</span>) - Colorizing the &#39;cat&#39; command.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">cheat</span>](<span class="na">https://github.com/chrisallenlane/cheat</span>) - Create and view interactive cheatsheets.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Clipboard</span>](<span class="na">https://github.com/Slackadays/Clipboard</span>) - Cut, copy, and paste files, folders, and raw data across all platforms.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">desk</span>](<span class="na">https://github.com/jamesob/desk</span>) - Lightweight workspace manager for the shell.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">dit</span>](<span class="na">https://github.com/vulpino/dit</span>) - Dotfile manager that hooks into Git.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">entr</span>](<span class="na">http://eradman.com/entrproject/</span>) - Run arbitrary commands when files change.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">exa</span>](<span class="na">https://github.com/ogham/exa</span>) - Modern version of &#39;ls&#39;.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">fundle</span>](<span class="na">https://github.com/tuvistavie/fundle</span>) - Minimalist package manager for dish shell.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">LNAV</span>](<span class="na">https://lnav.org</span>) - Advanced log file viewer for the small-scale that understands your log files.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Marker</span>](<span class="na">https://github.com/pindexis/marker</span>) - The terminal command palette.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">mtm</span>](<span class="na">https://github.com/deadpixi/mtm</span>) - Perhaps the smallest useful terminal multiplexer in the world.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">MultiTail</span>](<span class="na">https://www.vanheusden.com/multitail/</span>) - Monitor logfiles and command output in multiple windows in a terminal, colorize, filter and merge.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">PathPicker</span>](<span class="na">https://facebook.github.io/PathPicker/</span>) - After parsing the output from a command, PathPicker presents you with a nice UI to select which files you&#39;re interested in.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">pick</span>](<span class="na">https://github.com/calleerlandsson/pick</span>) - Fuzzy select anything.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">SCREEN</span>](<span class="na">http://www.guckes.net/Screen/</span>) - &quot;Window manager&quot; for the console and terminals.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Starship</span>](<span class="na">https://starship.rs</span>) - Minimal, blazing-fast and infinitely customizable prompt for any shell.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">tealdeer</span>](<span class="na">https://github.com/dbrgn/tealdeer</span>) - Very fast implementation of &#39;tldr&#39;.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">tmux</span>](<span class="na">https://tmux.github.io</span>) - Terminal multiplexer.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">yank</span>](<span class="na">https://github.com/mptre/yank</span>) - Yank terminal output to clipboard.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">z</span>](<span class="na">https://github.com/rupa/z</span>) - Tracks your most used directories, based on &quot;frecency&quot;.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">zoxide</span>](<span class="na">https://github.com/ajeetdsouza/zoxide</span>) - Similar to &#39;z&#39; but a standalone binary, therefore shell-independent.
+
+<span class="gu">### Text Editors</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Diakonos</span>](<span class="na">https://github.com/Pistos/diakonos</span>) - Linux editor for the masses.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Emacs</span>](<span class="na">https://www.gnu.org/software/emacs/</span>) - Extensible, customizable text editor.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Kakoune</span>](<span class="na">http://kakoune.org</span>) - Modal editor with multiple selections and orthogonal design.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Micro</span>](<span class="na">https://github.com/zyedidia/micro</span>) - Modern and intuitive text editor.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Neovim</span>](<span class="na">https://neovim.io</span>) - Modern version of the Vim editor with many advanced features.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Vim</span>](<span class="na">http://www.vim.org</span>) - Advanced text editor that seeks to provide the power of the de-facto Unix editor &#39;Vi&#39;, with a more complete feature set.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Vis</span>](<span class="na">https://github.com/martanne/vis</span>) - Highly efficient text editor.
+
+<span class="gu">### Version Control</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Bazaar</span>](<span class="na">http://bazaar.canonical.com/en/</span>) - Easily manage source code on Windows, Ubuntu, GNU/Linux, and Mac OS X.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">fossil</span>](<span class="na">https://fossil-scm.org</span>) - Simple, high-reliability, distributed SCM with integrated bug tracking, wiki, forum, and technotes.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Git</span>](<span class="na">https://www.git-scm.com</span>) - Git is a free and open source distributed version control system.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">gitfs</span>](<span class="na">https://www.presslabs.com/gitfs/</span>) - Version controlled file system.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">grv</span>](<span class="na">https://github.com/rgburke/grv</span>) - ncurses based text-mode Git repository browser.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Mercurial</span>](<span class="na">https://www.mercurial-scm.org</span>) - Free, distributed source control management tool.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">tig</span>](<span class="na">https://github.com/jonas/tig</span>) - ncurses based text-mode interface for Git.
+
+<span class="gu">### VPN</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">OpenVPN</span>](<span class="na">https://github.com/OpenVPN/openvpn</span>) - Full-featured open source SSL VPN solution.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">racoon</span>](<span class="na">http://ipsec-tools.sourceforge.net</span>) - Internet Key Exchange (IKE) daemon for automatically keying IPsec connections.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">strongSwan</span>](<span class="na">https://www.strongswan.org/</span>) - Open Source IPsec for Linux.
+
+<span class="gu">### World Wide Web</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">browsh</span>](<span class="na">https://www.brow.sh</span>) - A fully interactive, real-time and modern browser rendered to TTY.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">ELinks</span>](<span class="na">http://elinks.or.cz</span>) - Advanced and well-established feature-rich text mode web (HTTP/FTP/..) browser.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">GoAccess</span>](<span class="na">https://goaccess.io</span>) - Real-time visual web log analyzer and interactive viewer.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">googler</span>](<span class="na">https://github.com/jarun/googler</span>) - Google Search, Google Site Search, Google News from the terminal.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">pageres</span>](<span class="na">https://github.com/sindresorhus/pageres</span>) - Capture screenshots of websites in various resolutions.
+
+
+<span class="gu">## BSD</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">ezjail</span>](<span class="na">http://erdgeist.org/arts/software/ezjail/</span>) - Jail administration framework.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">iocage</span>](<span class="na">https://iocage.io</span>) - Convenient, lightweight &amp; easy container management for BSD jails.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">pkgsrc</span>](<span class="na">http://www.pkgsrc.org</span>) - Portable package build system.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">poudriere</span>](<span class="na">https://github.com/freebsd/poudriere</span>) - Port/package build and test system.
+
+<span class="gu">## Linux</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">aptly</span>](<span class="na">https://www.aptly.info/</span>) -  Swiss army knife for Debian repository management.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">btrfs</span>](<span class="na">https://btrfs.wiki.kernel.org/index.php/Main_Page</span>) - Copy-on-write file system for Linux aimed at implementing advanced features while focusing on fault tolerance, repair and easy administration.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">deborphan</span>](<span class="na">http://freecode.com/projects/deborphan</span>) - Finds packages installed on your Debian system that have no other packages depending on them.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">IPTraf</span>](<span class="na">http://iptraf.seul.org</span>) - Network statistics utility for Linux.
+
+
+<span class="gu">## macOS</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Fink</span>](<span class="na">http://www.finkproject.org</span>) - The full world of Unix Open Source software for Darwin.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Homebrew</span>](<span class="na">http://brew.sh</span>) - The missing package manager for OS X.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">itunes-remote</span>](<span class="na">https://github.com/mischah/itunes-remote</span>) - Control iTunes via CLI.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">MacPorts</span>](<span class="na">https://www.macports.org</span>) - Compile, install and upgrade either command-line, X11 or Aqua based open-source software.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">mas</span>](<span class="na">https://github.com/mas-cli/mas</span>) - Mac App Store command line interface.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">Night Shift Shell Utility</span>](<span class="na">https://github.com/jenghis/nshift</span>) - Simple shell utility to control the macOS Night Shift feature.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">reminders-cli</span>](<span class="na">https://github.com/keith/reminders-cli</span>) - Simple interface for interacting with Reminders.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">tag</span>](<span class="na">https://github.com/jdberry/tag</span>) - Manipulate tags on files and query for files with those tags.
+<span class="k">-</span><span class="w"> </span>[<span class="nt">XLD</span>](<span class="na">http://tmkk.undo.jp/xld/index_e.html</span>) - Tool to decode/convert/play various lossless audio files.
+
+
+<span class="gu">## Helpers</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">crontab.guru</span>](<span class="na">http://crontab.guru</span>) - Cron schedule expression editor.
+
+
+<span class="gu">## License</span>
+
+&lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://licensebuttons.net/l/by-sa/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;Creative Commons Attribution-ShareAlike 4.0 International License&lt;/a&gt;.
+</pre></div>
+</code></pre></td></tr></table>
+</div> <!-- class=content -->
+<div class='footer'>generated by <a href='https://git.zx2c4.com/cgit/about/'>cgit v1.2.3</a> (<a href='https://git-scm.com/'>git 2.25.1</a>) at 2024-06-09 19:18:51 +0000</div>
+</div> <!-- id=cgit -->
+</body>
+</html>
